@@ -8,8 +8,8 @@ fun main(){
     var Weight = "60"
     println(Weight)
     val iskenyan:Boolean =true
-    println(iskenyan) //output true
+    println(iskenyan)
     val isnotkenyan:Boolean =false
-    println(isnotkenyan) //output false
+    println(isnotkenyan)
 
 }
