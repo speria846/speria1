@@ -4,6 +4,8 @@ fun main(){
     add(23,45,21,34)
     greetings()
     intresting()
+    y = arrayOfStudents("speria","0987654322")
+    println(y)
 }
 
 fun modulus(a: Int, b: Int): Int{
@@ -25,4 +27,8 @@ fun greetings(){
 fun intresting(){
     var intresting = "i like loughing"
     println(intresting)
+}
+fun arrayOfStudents(name:Array<String>):String{
+    var x = name 
+    return x
 }
